@@ -10,7 +10,7 @@ const GetTodos = async ()=>{
     const todos = await  db.todo.findMany({})
     return todos
 }
-
+                                                                            
 const  hey = async()=>{
     
     const todos = await GetTodos()

@@ -1,4 +1,4 @@
-import Todo from './Todos'
+import Todos from './Todos'
 
 
 const TodoList = ({todos}) => {
@@ -6,9 +6,9 @@ const TodoList = ({todos}) => {
     <div>
         {todos.map(
             (todo)=>{
-                <Todo todo={todo} key={todo.id}  />
+                <Todos todo={todo} key={todo.id}/>
             }
-        )}
+        )}   
     </div>
   )
 }
